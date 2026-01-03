@@ -1,34 +1,77 @@
-# pomodoro-timer
+# Pomodoro Timer
 
-An Electron application with React and TypeScript
+Um aplicativo de timer Pomodoro simples e bonito, construído com tecnologias web modernas.
 
-## Recommended IDE Setup
+![Screenshot do Aplicativo](https://i.imgur.com/your-screenshot.png) 
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Funcionalidades
 
-## Project Setup
+*   Timer Pomodoro personalizável (tempo de trabalho, pausa curta, pausa longa).
+*   Notificações para o final de cada sessão.
+*   Design minimalista e fácil de usar.
+*   Multiplataforma (Windows, macOS e Linux).
 
-### Install
+## Tecnologias Utilizadas
 
-```bash
-$ npm install
-```
+*   **[Electron](https://www.electronjs.org/)**: Para criar aplicativos de desktop com JavaScript, HTML e CSS.
+*   **[React](https://reactjs.org/)**: Uma biblioteca JavaScript para construir interfaces de usuário.
+*   **[TypeScript](https://www.typescriptlang.org/)**: Um superconjunto de JavaScript que adiciona tipagem estática.
+*   **[Tailwind CSS](https://tailwindcss.com/)**: Um framework CSS utilitário para criar designs personalizados rapidamente.
+*   **[Vite](https://vitejs.dev/)**: Ferramenta de build que visa fornecer uma experiência de desenvolvimento mais rápida e enxuta para projetos web modernos.
+*   **[Electron Builder](https://www.electron.build/)**: Uma solução completa para empacotar e construir um aplicativo Electron pronto para distribuição.
 
-### Development
+## Começando
 
-```bash
-$ npm run dev
-```
+Para rodar o projeto localmente, siga os passos abaixo.
 
-### Build
+### Pré-requisitos
 
-```bash
-# For windows
-$ npm run build:win
+*   [Node.js](https://nodejs.org/) (versão 18 ou superior)
+*   [npm](https://www.npmjs.com/) ou [pnpm](https://pnpm.io/)
 
-# For macOS
-$ npm run build:mac
+### Instalação e Execução
 
-# For Linux
-$ npm run build:linux
-```
+1.  Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/pomodoro-timer.git
+    cd pomodoro-timer
+    ```
+
+2.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+    ou
+    ```bash
+    pnpm install
+    ```
+
+3.  Rode o aplicativo em modo de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+
+## Build
+
+Para criar os executáveis do aplicativo para sua plataforma, use um dos seguintes comandos:
+
+*   **Windows**:
+    ```bash
+    npm run build:win
+    ```
+
+*   **macOS**:
+    ```bash
+    npm run build:mac
+    ```
+
+*   **Linux**:
+    ```bash
+    npm run build:linux
+    ```
+
+Os arquivos de build serão criados no diretório `dist`.
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
